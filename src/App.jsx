@@ -1,5 +1,5 @@
 import React from "react";
-import Portfolio from "./Portfolio"; // Make sure this matches your file's exact name!
+import Portfolio from "./portfolio.jsx";
 
 function App() {
   return (
