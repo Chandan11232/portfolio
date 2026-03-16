@@ -48,6 +48,15 @@ const PROJECTS = [
       "A RAG based LLM ChatBot, which answers to user's queries based on the uploaded document.",
     stack: ["Langchain", "File Handling", "Python", "Linux"],
   },
+  {
+    id: 5,
+    title: "ResearchMind",
+    year: "2026",
+    tag: "Lang-graph",
+    description:
+      "multi-iteration AI research agent with iterative retrieval that uses lang-graph.",
+    stack: ["Langchain", "File Handling", "Python", "Linux", "lang-graph"],
+  },
 ];
 
 function useInView(threshold = 0.15) {
