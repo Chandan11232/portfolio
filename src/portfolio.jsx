@@ -57,6 +57,15 @@ const PROJECTS = [
       "multi-iteration AI research agent with iterative retrieval that uses lang-graph.",
     stack: ["Langchain", "File Handling", "Python", "Linux", "lang-graph"],
   },
+  {
+    id: 6,
+    title: "OrchestraPaaS",
+    year: "2026",
+    tag: "DevOps / AI",
+    description:
+      "A production-grade AI-powered Micro-PaaS that synthesizes, containerizes, and deploys full-stack web applications on-demand. Features a custom reverse-proxy, real-time WebSocket orchestration, and persistent volume management.",
+    stack: ["Docker API", "Node.js", "Ollama", "Socket.io", "SQLite"],
+  },
 ];
 
 function useInView(threshold = 0.15) {
