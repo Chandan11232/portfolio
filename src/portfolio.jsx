@@ -59,7 +59,7 @@ const PROJECTS = [
   },
   {
     id: 6,
-    title: "OrchestraPaaS",
+    title: "Orchestra PaaS",
     year: "2026",
     tag: "DevOps / AI",
     description:
