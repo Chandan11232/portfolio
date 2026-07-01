@@ -14,57 +14,57 @@ const SKILLS = [
 const PROJECTS = [
   {
     id: 1,
-    title: "Youtube Q&A Bot",
+    title: "ResearchMind",
     year: "2026",
-    tag: "Langchain",
+    tag: "Agentic AI",
     description:
-      "A langchain based Q&A bot that analyzes caption based video url and answer queries based on the video.",
-    stack: ["Langchain", "Streamlit", "Python"],
+      "A multi-agent AI research assistant built with LangGraph & Gemini 1.5 Flash for autonomous, multi-iteration deep research with self-correction loops — cutting hallucinations in long-form analytical reports.",
+    stack: ["LangGraph", "LangChain", "Gemini", "Python"],
   },
   {
     id: 2,
-    title: "Chatify",
-    year: "2025",
-    tag: "Full Stack",
-    description:
-      "A real time chat application that allows users to chat either privately or in groups with proper user authentication and authorization.",
-    stack: ["MERN Stack", "Socket.io", "Google OAuth"],
-  },
-  {
-    id: 3,
-    title: "Blog Application",
-    year: "2025",
-    tag: "NextJS",
-    description:
-      "A Blog application which allows users to create, read, update and delete blogs, Users will be able to see and read other user's blogs from their specific profiles.",
-    stack: ["NextJS", "Github", "MongoDB", "Authentication"],
-  },
-  {
-    id: 4,
-    title: "SolX",
+    title: "Youtube Q&A Bot",
     year: "2026",
     tag: "RAG",
     description:
-      "A RAG based LLM ChatBot, which answers to user's queries based on the uploaded document.",
-    stack: ["Langchain", "File Handling", "Python", "Linux"],
+      "An LLM-powered video analyst with an end-to-end RAG pipeline that chunks and semantically indexes YouTube transcripts via FAISS, surfaced through a Chrome side-panel extension for real-time Q&A inside the YouTube UI.",
+    stack: ["Python", "LangChain", "FAISS", "Chrome Extension"],
+  },
+  {
+    id: 3,
+    title: "Real-Time Chat Application",
+    year: "2026",
+    tag: "Full Stack",
+    description:
+      "A bi-directional real-time messaging platform with event-driven Socket.io architecture, zero-latency state sync, presence indicators, and persistent room-based sessions for multiple concurrent users.",
+    stack: ["MERN Stack", "Socket.io"],
+  },
+  {
+    id: 4,
+    title: "LLM-Wiki",
+    year: "2026",
+    tag: "RAG",
+    description:
+      "A semantic knowledge base and RAG dictionary that ingests .txt documents, chunks and embeds them, and indexes into FAISS — turning any static document into a queryable knowledge base with context-grounded answers.",
+    stack: ["Python", "LangChain", "FAISS", "Embeddings"],
   },
   {
     id: 5,
-    title: "ResearchMind",
+    title: "OpportunIQ",
     year: "2026",
-    tag: "Lang-graph",
+    tag: "Automation",
     description:
-      "multi-iteration AI research agent with iterative retrieval that uses lang-graph.",
-    stack: ["Langchain", "File Handling", "Python", "Linux", "lang-graph"],
+      "An intelligent job filter & dispatcher — a fully automated n8n workflow that connects Gmail, Google Sheets, and job-board APIs via OAuth2, classifies listings by seniority, and delivers curated digests straight to your inbox.",
+    stack: ["n8n", "Google OAuth2", "Gmail API", "Webhooks"],
   },
   {
     id: 6,
-    title: "Orchestra PaaS",
+    title: "OpsMind",
     year: "2026",
-    tag: "DevOps / AI",
+    tag: "DevOps",
     description:
-      "A production-grade AI-powered Micro-PaaS that synthesizes, containerizes, and deploys full-stack web applications on-demand. Features a custom reverse-proxy, real-time WebSocket orchestration, and persistent volume management.",
-    stack: ["Docker API", "Node.js", "Ollama", "Socket.io", "SQLite"],
+      "A full DevOps pipeline for a MERN stack application — automated CI/CD builds, tests, and deploys containers to AWS ECS, with EC2 for compute and S3 for artifact/static storage, end to end.",
+    stack: ["AWS", "EC2", "ECS", "S3", "CI/CD", "MERN Stack"],
   },
 ];
 
