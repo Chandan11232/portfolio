@@ -17,6 +17,7 @@ const PROJECTS = [
     title: "ResearchMind",
     year: "2026",
     tag: "Agentic AI",
+    link: "https://research-mind.vercel.app/",
     description:
       "A multi-agent AI research assistant built with LangGraph & Gemini 1.5 Flash for autonomous, multi-iteration deep research with self-correction loops — cutting hallucinations in long-form analytical reports.",
     stack: ["LangGraph", "LangChain", "Gemini", "Python"],
