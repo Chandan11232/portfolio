@@ -59,12 +59,13 @@ const PROJECTS = [
   },
   {
     id: 6,
-    title: "OpsMind",
+    title: "Cognee-Memory-Hub",
     year: "2026",
-    tag: "DevOps",
+    tag: "Hackathon based",
+    link: "https://cognee-memory-app.vercel.app/",
     description:
-      "A full DevOps pipeline for a MERN stack application — automated CI/CD builds, tests, and deploys containers to AWS ECS, with EC2 for compute and S3 for artifact/static storage, end to end.",
-    stack: ["AWS", "EC2", "ECS", "S3", "CI/CD", "MERN Stack"],
+      "Cognee Memory CLI — A full-stack AI memory app built with Python and Streamlit that demonstrates persistent knowledge graph memory using Cognee. Implements all four core memory operations — Remember, Recall, Improve, and Forget — powered by a local LLM via Ollama.",
+    stack: ["Ollama", "Cognee", "Python", "LLMs", "Vector Databases", "Semantic Search"],
   },
 ];
 
