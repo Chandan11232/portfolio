@@ -674,6 +674,33 @@ function ProjectCard({ project, index, inView }) {
             </span>
           ))}
         </div>
+        {project.link && (
+          <a
+            href={project.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={(e) => e.stopPropagation()}
+            style={{
+              display: "inline-flex",
+              alignItems: "center",
+              gap: "0.4rem",
+              fontFamily: "'DM Mono', monospace",
+              fontSize: "0.65rem",
+              letterSpacing: "0.1em",
+              textTransform: "uppercase",
+              color: "rgb(var(--text))",
+              textDecoration: "none",
+              border: "1px solid rgba(var(--text),0.25)",
+              padding: "0.4rem 0.9rem",
+              marginTop: "1rem",
+              transition: "border-color .25s ease",
+            }}
+            onMouseEnter={(e) => (e.currentTarget.style.borderColor = "rgba(var(--text),0.55)")}
+            onMouseLeave={(e) => (e.currentTarget.style.borderColor = "rgba(var(--text),0.25)")}
+          >
+            View Project ↗
+          </a>
+        )}
       </div>
 
       <div style={{ position: "relative", zIndex: 1, padding: "2rem" }}>
