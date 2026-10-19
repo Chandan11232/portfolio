@@ -51,12 +51,13 @@ const PROJECTS = [
   },
   {
     id: 5,
-    title: "OpportunIQ",
+    title: "GraphSleuth",
     year: "2026",
-    tag: "Automation",
+    tag: "Hackathon based",
+    link: "https://graph-sleuth.vercel.app/",
     description:
-      "An intelligent job filter & dispatcher — a fully automated n8n workflow that connects Gmail, Google Sheets, and job-board APIs via OAuth2, classifies listings by seniority, and delivers curated digests straight to your inbox.",
-    stack: ["n8n", "Google OAuth2", "Gmail API", "Webhooks"],
+      "A bug-investigation agent that reasons over a FalkorDB code graph of functions, calls, tests, commits and authors — tracing a bug report to its root cause with every hop shown as Cypher, then proving the fix in a sandbox (regression test fails before, passes after) and drafting a reviewer-ready PR. Built for Graph Hacks 2026.",
+    stack: ["FalkorDB", "Cypher", "FastAPI", "React", "MCP", "Ollama"],
   },
   {
     id: 6,
