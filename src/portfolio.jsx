@@ -69,6 +69,16 @@ const PROJECTS = [
       "Cognee Memory CLI — A full-stack AI memory app built with Python and Streamlit that demonstrates persistent knowledge graph memory using Cognee. Implements all four core memory operations — Remember, Recall, Improve, and Forget — powered by a local LLM via Ollama.",
     stack: ["Ollama", "Cognee", "Python", "LLMs", "Vector Databases", "Semantic Search"],
   },
+  {
+    id: 7,
+    title: "Voicegraph",
+    year: "2026",
+    tag: "Hackathon based",
+    link: "https://voicegraph-mocha.vercel.app/",
+    description:
+      "A voice-first architecture whiteboard — describe a system out loud with Wispr Flow and it's drawn as a draggable diagram. Select boxes and edit by voice, run an architecture review that pins weak spots to the boxes involved, then say \"fix them\". Exports PNG, SVG, Mermaid and a README architecture section. Built for No Hands: The Wispr Challenge.",
+    stack: ["React", "React Flow", "ELK", "Groq", "Vercel", "Wispr Flow"],
+  },
 ];
 
 function useInView(threshold = 0.15) {
